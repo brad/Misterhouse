@@ -1,17 +1,5 @@
 #!/bin/sh
 
-# these will get recreated if you are running svn, oh well
-echo
-echo Deleting Windows-only files...
-rm -f RasDial.txt rasdial.*
-rm -f *.bat *.exe *.EXE *.wbt
-rm -rf ../lib/site/Win32*
-rm -rf ../lib/site/auto/Win32*
-rm -rf ../lib/site_win*
-
-echo Chmod scripts to executables...
-chmod +x *
-
 # h2ph On everything would be overkill ... only do what we need.
 # Probably should check to see if it has already been done, but I guess it 
 # doesn't hurt to do it again.
