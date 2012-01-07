@@ -1,0 +1,15 @@
+mh.ini
+_default.log
+*~
+code/test/mh.menu
+code/test/organizer_events.pl
+code/test/organizer_tasks.pl
+code/test/test.mhp
+code/test/triggers.mhp
+data/logs/*
+data/mh.pid
+data/mh_temp.saved_states
+data/mh_temp.saved_states.persistent
+data/mh_temp.saved_states.unused
+data/mh_temp.user_code
+data/triggers.current
